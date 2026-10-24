@@ -8,9 +8,9 @@ I started coding on **October 3, 2026**. This repo documents my first steps in C
 | File | Description |
 |---|---|
 | `bmr.cpp` | Basal metabolic rate calculator (Harris-Benedict). My very first program, written on day one |
-| `Temperatur_Umrechner.cpp` | Celsius to Fahrenheit converter |
-| `Temperatur_Umrechner_2.0.cpp` | Added Kelvin |
-| `Temperatur_Umrechner_2.1.cpp` | Input validation, absolute zero check, repeat loop, functions |
+| `temperature_converter_v1.cpp` | Celsius to Fahrenheit converter |
+| `temperature_converter_v2.0.cpp` | Added Kelvin |
+| `temperature_converter_v2.1.cpp` | Input validation, absolute zero check, repeat loop, functions |
 
 I kept the converter versions as separate files on purpose, so you can see how my code improved step by step.
 
