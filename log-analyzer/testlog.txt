@@ -1,0 +1,11 @@
+Oct 25 18:55:34 server sshd[0970]: Accepted password for john from 10.8.0.4 port 22 ssh2
+Oct 25 18:58:46 server sshd[0999]: Failed password for invalid user admin from 192.168.4.13 port 22 ssh2
+Oct 25 19:28:45 server sshd[1099]: Accepted password for harry from 10.4.0.9 port 22 ssh2
+Oct 25 19:39:40 server sshd[1109]: Failed password for root from 192.168.8.12 port 22 ssh2
+Oct 25 19:40:20 server sshd[1113]: Failed password for root from 192.168.8.12 port 22 ssh2
+Oct 25 19:42:45 server sshd[1116]: Accepted password for anna from 10.6.0.6 port 22 ssh2
+Oct 25 19:43:10 server sshd[1117]: Failed password for root from 192.168.8.12 port 22 ssh2
+Oct 25 19:44:10 server sshd[1119]: Failed password for root from 192.168.8.12 port 22 ssh2
+Oct 25 19:45:33 server sshd[1122]: Failed password for root from 192.168.8.12 port 22 ssh2
+Oct 25 20:01:12 server sshd[1234]: Failed password for root from 192.168.1.10 port 22 ssh2
+Oct 25 20:02:45 server sshd[1240]: Accepted password for myx from 10.0.0.5 port 22 ssh2
