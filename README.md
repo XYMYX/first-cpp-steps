@@ -19,6 +19,7 @@ The converter grew step by step. Instead of keeping several files, I use Git tag
 | `v1.0` | First version: Celsius to Fahrenheit |
 | `v2.0` | Added Kelvin |
 | `v2.1` | Input validation, absolute zero check, repeat loop, functions |
+| `bmr_2.0.cpp` | Input validation for weight, height and age |
 
 The old versions are still available. Note that the files had different names back then (before I renamed everything to English):
 
