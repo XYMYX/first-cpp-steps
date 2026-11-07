@@ -1,23 +1,32 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+
 using namespace std;
 
 int main() {
-    ifstream file  ("testlog.txt");
+    ifstream file("testlog.txt");
+
     if (!file) {
-        cout << "Error: could not open testlog.txt" << endl;
+        cout << "Datei konnte nicht geoeffnet werden." << endl;
         return 1;
     }
 
     string line;
-    int count = 0;
+    int lineCount = 0;
+    int failedCount = 0;
 
     while (getline(file, line)) {
-        count++;
-        cout << count << ": " << line << endl;
+        lineCount++;
+
+        if (line.find("Failed password") != string::npos) {
+            cout << line << endl;
+            failedCount++;
+        }
     }
 
-    cout << "lines read: " << count << endl;
+    cout << "Lines total: " << lineCount << endl;
+    cout << "Failed logins: " << failedCount << endl;
+
     return 0;
 }
