@@ -7,8 +7,9 @@ My very first programs as a career changer from healthcare into IT. I started co
 | File / Folder | Description |
 |---|---|
 | `bmr.cpp` | Basal metabolic rate calculator (Harris-Benedict). My very first program, written on day one |
+| `bmr_2.0.cpp` | Second version of the BMR calculator with input validation for weight, height and age |
 | `temperature_converter.cpp` | Temperature converter (Celsius, Fahrenheit, Kelvin) with input validation, absolute zero check, repeat loop and functions |
-| `log-analyzer/` | Work in progress: a command line tool that reads a Linux-style login log and will report failed logins per IP address. Currently reads a file and counts lines. Test data is made up |
+| `log-analyzer/` | Work in progress: a command line tool that reads a Linux-style login log and will report failed logins per IP address. Currently reads the file and filters the failed password lines (stage 2 of 7). Test data is made up |
 
 ## Version history
 
@@ -19,7 +20,6 @@ The converter grew step by step. Instead of keeping several files, I use Git tag
 | `v1.0` | First version: Celsius to Fahrenheit |
 | `v2.0` | Added Kelvin |
 | `v2.1` | Input validation, absolute zero check, repeat loop, functions |
-| `bmr_2.0.cpp` | Input validation for weight, height and age |
 
 The old versions are still available. Note that the files had different names back then (before I renamed everything to English):
 
@@ -50,7 +50,7 @@ I write the code myself and use AI as a tutor to explain concepts and review my 
 
 ## Next goals
 
-- Finish the log analyzer (filter failed logins, count per IP, sort the output)
+- Finish the log analyzer (extract the IP, count per IP, sort and warn on 5+ attempts)
 - Improve input handling in my programs (non-numeric input, value ranges)
 - Linux and OverTheWire Bandit
 - Security fundamentals
